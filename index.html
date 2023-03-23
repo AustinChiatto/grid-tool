@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grid Assignment</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/global.css" />
+    </head>
+    <body>
+        <div class="scanlines"></div>
+        <header>
+            <ul class="header-menu">
+                <li>Welcome to Gridception</li>
+                <li>
+                    <img class="header-img" src="img/15.svg" alt="" />
+                </li>
+                <li>
+                    <img class="header-img" src="img/14.svg" alt="" />
+                </li>
+                <li>
+                    <img class="header-img" src="img/17.svg" alt="" />
+                </li>
+                <li>
+                    <img class="header-img" src="img/9.svg" alt="" />
+                </li>
+            </ul>
+        </header>
+        <main>
+            <section class="wrapper">
+                <div class="display card">
+                    <div class="display__grid js-grid-display">
+                        <div class="display__item"></div>
+                        <div class="display__item"></div>
+                        <div class="display__item"></div>
+                        <div class="display__item"></div>
+                        <div class="display__item">
+                            <img class="display__item-img" src="img/4.svg" alt="" />
+                        </div>
+                        <div class="display__item"></div>
+                        <div class="display__item"></div>
+                        <div class="display__item"></div>
+                        <div class="display__item"></div>
+                    </div>
+                </div>
+                <div class="input card">
+                    <h3 class="card__label">Columns</h3>
+                    <p class="input__count js-column-count">3</p>
+                    <ul class="input__controls">
+                        <li class="input__increase js-column__increase">++</li>
+                        <li class="input__decrease js-column__decrease">--</li>
+                    </ul>
+                </div>
+                <div class="input card">
+                    <h3 class="card__label">Rows</h3>
+                    <p class="input__count js-row-count">3</p>
+                    <ul class="input__controls">
+                        <li class="input__increase js-row__increase">++</li>
+                        <li class="input__decrease js-row__decrease">--</li>
+                    </ul>
+                </div>
+                <div class="input card">
+                    <h3 class="card__label">Gap (px)</h3>
+                    <p class="input__count js-gap-count">8</p>
+                    <ul class="input__controls">
+                        <li class="input__increase js-gap__increase">++</li>
+                        <li class="input__decrease js-gap__decrease">--</li>
+                    </ul>
+                </div>
+                <div class="output card">
+                    <h3 class="card__label">The Code</h3>
+                    <div class="output__code js-code-output"></div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <ul class="footer-menu">
+                <li>Hope This Helped!</li>
+            </ul>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>

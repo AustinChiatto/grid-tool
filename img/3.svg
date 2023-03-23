@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193.49 193.49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ff1d63;
+      }
+    </style>
+  </defs>
+  <g id="_ÎÓÈ_1" data-name="—ÎÓÈ_1">
+    <g id="STICKERS">
+      <g id="STICKERS-2" data-name="STICKERS">
+        <g>
+          <circle class="cls-2" cx="96.75" cy="96.75" r="96.75" transform="translate(-40.07 96.75) rotate(-45)"/>
+          <path class="cls-1" d="M164.77,96.75c-54.09-7.69-60.33-13.93-68.03-68.03-7.69,54.09-13.93,60.33-68.02,68.03,54.09,7.69,60.33,13.93,68.02,68.03,7.69-54.09,13.93-60.33,68.03-68.03Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
